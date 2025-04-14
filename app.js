@@ -5,7 +5,7 @@ import path from 'path';
 import authRoutes from './Routes/UserAuth.js';
 import recruiterAuthRoutes from './Routes/RecruiterAuth.js';
 import candidateProfileRoutes from './Routes/CandidateProfileRoutes.js';
-import passport from './config/passport.js';
+import passport from './Config/passport.js';
 import googleAuthRoutes from './Routes/GoogleAuth.js';
 import connectDB from './Config/Db.js';
 
